@@ -91,7 +91,7 @@ class generator:
 		template = env.get_template('preseed.cfg.tpl')
 		self.__template = template.render(**default)
 
-	def print(self):
+	def printf(self):
 		'''
 		Prints the generate preseed.cfg to the console.
 		'''

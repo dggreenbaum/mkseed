@@ -14,7 +14,7 @@ mkseed is a simple generator for Debian preseed files.
     gen = generator("IP", "NETMAKSK", "GATEWAY")
 
     # Print the file to your console.
-    gen.print()
+    gen.printf()
 
     # Save the file to disk.
     gen.save("/path/to/file.ext")
